@@ -1,0 +1,13 @@
+1、image_code
+url:/imagecode/
+请求方法：GET
+参数名	    数据类型   是否必须    说明
+image_name     str  	  是       验证码的名字
+text		   str		  是 	   验证码的内容
+image          str 		  是       验证码图片
+
+返回结果：
+数据类型：json
+errno
+errmsg
+
